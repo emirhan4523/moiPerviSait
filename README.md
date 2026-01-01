@@ -2,14 +2,11 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Каталог фильмов</title>
+    <title>Нажимай клавиши</title>
 </head>
 <body>
-    <h1>Фильмы жанра "Драма"</h1>
-    <ul id="dramaFilms"></ul>
-    
-
+    <h1>Нажимай клавиши R, G, B</h1>
+    <p id="output">Нажмите клавишу для изменения цвета текста.</p>
     <script src="script.js"></script>
 </body>
 </html>
