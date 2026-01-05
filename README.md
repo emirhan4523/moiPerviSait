@@ -7,8 +7,9 @@
 <body>
     <h1>Нажимай клавиши R, G, B</h1>
     <p id="output">Нажмите клавишу для изменения цвета текста.</p>
-    <script src="script.js"></script>
-    document.addEventListener('keydown', function(event) {
+    <script 
+        src="script.js">
+            document.addEventListener('keydown', function(event) {
     const output = document.getElementById('output');
     const key = event.key.toUpperCase();
 
@@ -26,5 +27,7 @@
         output.textContent = 'Цвет не изменился. Нажмите \'R\', \'G\' или \'B\' для изменения цвета текста.';
     }
 });
+        </script>
+
 </body>
 </html>
